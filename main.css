@@ -1,0 +1,32 @@
+body, html {
+    height: 100%;
+  }
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+  }
+  .bg { 
+    /* The image used */
+    background-image: url("https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/cloud/cumulonimbus-2.jpg");
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    background-attachment: fixed;
+  }
+
+  #myTodo{
+      margin-top:2%;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+  }
+
+.myrw{
+  border-bottom: 1px solid silver;
+}
